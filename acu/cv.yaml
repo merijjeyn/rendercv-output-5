@@ -69,7 +69,7 @@ cv:
         start_date: 2021-05
         end_date: 2021-08
         location: London, UK
-        summary:
+        summary: Saac
         highlights:
           - Developed reinforcement learning algorithms for multi-agent
             coordination
