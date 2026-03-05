@@ -1,14 +1,12 @@
 cv:
-  name: Sacve etti
+  name: Sacv
   headline:
   location: San Francisco, CA
   email: john.doe@email.com
   photo:
   phone:
   website: https://rendercv.com/
-  social_networks:
-    - network: GitHub
-      username: rendercv
+  social_networks: []
   custom_connections: []
   sections:
     education:
