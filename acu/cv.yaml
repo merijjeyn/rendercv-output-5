@@ -1,5 +1,5 @@
 cv:
-  name: acu
+  name: Sacve etti
   headline:
   location: San Francisco, CA
   email: john.doe@email.com
@@ -9,15 +9,8 @@ cv:
   social_networks:
     - network: GitHub
       username: rendercv
-  custom_connections:
+  custom_connections: []
   sections:
-    Welcome to RenderCV:
-      - RenderCV reads a CV written in a YAML file, and generates a PDF with
-        professional typography.
-      - Each section title is arbitrary.
-      - You can choose any of the 9 entry types for each section.
-      - Markdown syntax is supported everywhere. This is **bold**, *italic*, and
-        [link](https://example.com).
     education:
       - institution: Princeton University
         area: Computer Science
