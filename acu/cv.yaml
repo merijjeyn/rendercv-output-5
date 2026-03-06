@@ -6,7 +6,11 @@ cv:
   photo:
   phone:
   website: https://rendercv.com/
-  social_networks: [ { network: GitHub, username: merijjeyn } ]
+  social_networks:
+    [
+      { network: GitHub, username: merijjeyn },
+      { network: LinkedIn, username: mericungor }
+    ]
   custom_connections: []
   sections:
     education:

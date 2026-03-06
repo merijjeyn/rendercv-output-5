@@ -26,7 +26,7 @@ design:
       name: EB Garamond
       headline: Raleway
       connections: Raleway
-      section_titles: Raleway
+      section_titles: EB Garamond
     font_size:
       body: 10pt
       name: 30pt
