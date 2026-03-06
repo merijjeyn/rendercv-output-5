@@ -6,8 +6,8 @@ design:
     bottom_margin: 0.5in
     left_margin: 0.5in
     right_margin: 0.5in
-    show_footer: true
-    show_top_note: false
+    show_footer: false
+    show_top_note: true
   colors:
     body: rgb(0, 0, 0)
     name: rgb(0, 79, 144)
@@ -18,8 +18,8 @@ design:
     footer: rgb(128, 128, 128)
     top_note: rgb(128, 128, 128)
   typography:
-    line_spacing: 0.6em
-    alignment: justified
+    line_spacing: 0.4em
+    alignment: left
     date_and_location_column_alignment: right
     font_family:
       body: Raleway
