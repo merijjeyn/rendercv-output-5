@@ -1,6 +1,6 @@
 cv:
   name: Sacit
-  headline: software
+  headline: AI Research & Infrastructure Engineer
   location: San Francisco
   email: john.doe@email.com
   photo:
@@ -43,14 +43,10 @@ cv:
         location: San Francisco, CA
         summary:
         highlights:
-          - Built foundation model infrastructure serving 2M+ monthly API
-            requests with 99.97% uptime
-          - Raised $18M Series A led by Sequoia Capital, with participation from
-            a16z and Founders Fund
-          - Scaled engineering team from 3 to 28 across ML research, platform,
-            and applied AI divisions
-          - Developed proprietary inference optimization reducing latency by 73%
-            compared to baseline
+          - Built foundation model infrastructure serving 2M+ monthly API requests with 99.97% uptime
+          - Developed proprietary inference optimization reducing latency by 73% compared to baseline
+          - Scaled engineering team from 3 to 28 across ML research, platform, and applied AI divisions
+          - Raised $18M Series A led by Sequoia Capital, with participation from a16z and Founders Fund
       - company: NVIDIA Research
         position: Research Intern
         date:
@@ -69,14 +65,10 @@ cv:
         start_date: 2021-05
         end_date: 2021-08
         location: London, UK
-        summary: Saac
+        summary:
         highlights:
-          - Developed reinforcement learning algorithms for multi-agent
-            coordination
-          - Published research at top-tier venues with significant academic
-            impact - ICML 2022 main conference paper, cited 340+ times within
-            two years - NeurIPS 2022 workshop paper on emergent communication
-            protocols - Invited journal extension in JMLR (2023)
+          - Developed reinforcement learning algorithms for multi-agent coordination
+          - Published at ICML 2022 (cited 340+ times), NeurIPS 2022 workshop, and invited JMLR extension
       - company: Apple ML Research
         position: Research Intern
         date:
@@ -162,12 +154,6 @@ cv:
         url:
         journal: ICLR 2021, Best Paper Award
         date: 2021-05
-    selected_honors:
-      - bullet: MIT Technology Review 35 Under 35 Innovators (2024)
-      - bullet: Forbes 30 Under 30 in Enterprise Technology (2024)
-      - bullet: ACM Doctoral Dissertation Award Honorable Mention (2023)
-      - bullet: Google PhD Fellowship in Machine Learning (2020 – 2023)
-      - bullet: Fulbright Scholarship for Graduate Studies (2018)
     skills:
       - label: Languages
         details: Python, C++, CUDA, Rust, Julia
@@ -176,19 +162,5 @@ cv:
       - label: Infrastructure
         details: Kubernetes, Ray, distributed training, AWS, GCP
       - label: Research Areas
-        details: Neural architecture search, model compression, efficient inference,
-          multi-agent RL
-    patents:
-      - number: Adaptive Quantization for Neural Network Inference on Edge Devices (US
-          Patent 11,234,567)
-      - number: Dynamic Sparsity Patterns for Efficient Transformer Attention (US Patent
-          11,345,678)
-      - number: Hardware-Aware Neural Architecture Search Method (US Patent 11,456,789)
-    invited_talks:
-      - reversed_number: Scaling Laws for Efficient Inference — Stanford HAI Symposium (2024)
-      - reversed_number: Building AI Infrastructure for the Next Decade — TechCrunch
-          Disrupt (2024)
-      - reversed_number: 'From Research to Production: Lessons in ML Systems — NeurIPS
-          Workshop (2023)'
-      - reversed_number: "Efficient Deep Learning: A Practitioner's Perspective — Google
-          Tech Talk (2022)"
+        details: Model pretraining & post-training, inference optimization, model compression, RL from human feedback, AI safety
+
