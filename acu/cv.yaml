@@ -1,12 +1,12 @@
 cv:
-  name: Sacit
+  name: Meric Ungor
   headline: AI Research & Infrastructure Engineer
-  location: San Francisco
-  email: john.doe@email.com
+  location: London
+  email: ungormeric@gmail.com
   photo:
   phone:
   website: https://rendercv.com/
-  social_networks: []
+  social_networks: [ { network: GitHub, username: merijjeyn } ]
   custom_connections: []
   sections:
     education:
@@ -43,10 +43,14 @@ cv:
         location: San Francisco, CA
         summary:
         highlights:
-          - Built foundation model infrastructure serving 2M+ monthly API requests with 99.97% uptime
-          - Developed proprietary inference optimization reducing latency by 73% compared to baseline
-          - Scaled engineering team from 3 to 28 across ML research, platform, and applied AI divisions
-          - Raised $18M Series A led by Sequoia Capital, with participation from a16z and Founders Fund
+          - Built foundation model infrastructure serving 2M+ monthly API
+            requests with 99.97% uptime
+          - Developed proprietary inference optimization reducing latency by 73%
+            compared to baseline
+          - Scaled engineering team from 3 to 28 across ML research, platform,
+            and applied AI divisions
+          - Raised $18M Series A led by Sequoia Capital, with participation from
+            a16z and Founders Fund
       - company: NVIDIA Research
         position: Research Intern
         date:
@@ -67,8 +71,10 @@ cv:
         location: London, UK
         summary:
         highlights:
-          - Developed reinforcement learning algorithms for multi-agent coordination
-          - Published at ICML 2022 (cited 340+ times), NeurIPS 2022 workshop, and invited JMLR extension
+          - Developed reinforcement learning algorithms for multi-agent
+            coordination
+          - Published at ICML 2022 (cited 340+ times), NeurIPS 2022 workshop,
+            and invited JMLR extension
       - company: Apple ML Research
         position: Research Intern
         date:
@@ -162,5 +168,5 @@ cv:
       - label: Infrastructure
         details: Kubernetes, Ray, distributed training, AWS, GCP
       - label: Research Areas
-        details: Model pretraining & post-training, inference optimization, model compression, RL from human feedback, AI safety
-
+        details: Model pretraining & post-training, inference optimization, model
+          compression, RL from human feedback, AI safety
