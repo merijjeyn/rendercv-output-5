@@ -14,10 +14,12 @@ cv:
   custom_connections:
   sections:
     Welcome to RenderCV:
-      - RenderCV reads a CV written in a YAML file, and generates a PDF with professional typography.
+      - RenderCV reads a CV written in a YAML file, and generates a PDF with
+        professional typography.
       - Each section title is arbitrary.
       - You can choose any of the 9 entry types for each section.
-      - Markdown syntax is supported everywhere. This is **bold**, *italic*, and [link](https://example.com).
+      - Markdown syntax is supported everywhere. This is **bold**, *italic*, and
+        [link](https://example.com).
     education:
       - institution: Princeton University
         area: Computer Science
@@ -28,7 +30,8 @@ cv:
         location: Princeton, NJ
         summary:
         highlights:
-          - 'Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment'
+          - 'Thesis: Efficient Neural Architecture Search for
+            Resource-Constrained Deployment'
           - 'Advisor: Prof. Sanjeev Arora'
           - NSF Graduate Research Fellowship, Siebel Scholar (Class of 2022)
       - institution: Boğaziçi University
@@ -51,10 +54,14 @@ cv:
         location: San Francisco, CA
         summary:
         highlights:
-          - Built foundation model infrastructure serving 2M+ monthly API requests with 99.97% uptime
-          - Raised $18M Series A led by Sequoia Capital, with participation from a16z and Founders Fund
-          - Scaled engineering team from 3 to 28 across ML research, platform, and applied AI divisions
-          - Developed proprietary inference optimization reducing latency by 73% compared to baseline
+          - Built foundation model infrastructure serving 2M+ monthly API
+            requests with 99.97% uptime
+          - Raised $18M Series A led by Sequoia Capital, with participation from
+            a16z and Founders Fund
+          - Scaled engineering team from 3 to 28 across ML research, platform,
+            and applied AI divisions
+          - Developed proprietary inference optimization reducing latency by 73%
+            compared to baseline
       - company: NVIDIA Research
         position: Research Intern
         date:
@@ -63,8 +70,10 @@ cv:
         location: Santa Clara, CA
         summary:
         highlights:
-          - Designed sparse attention mechanism reducing transformer memory footprint by 4.2x
-          - Co-authored paper accepted at NeurIPS 2022 (spotlight presentation, top 5% of submissions)
+          - Designed sparse attention mechanism reducing transformer memory
+            footprint by 4.2x
+          - Co-authored paper accepted at NeurIPS 2022 (spotlight presentation,
+            top 5% of submissions)
       - company: Google DeepMind
         position: Research Intern
         date:
@@ -73,11 +82,12 @@ cv:
         location: London, UK
         summary:
         highlights:
-          - Developed reinforcement learning algorithms for multi-agent coordination
-          - Published research at top-tier venues with significant academic impact
-            - ICML 2022 main conference paper, cited 340+ times within two years
-            - NeurIPS 2022 workshop paper on emergent communication protocols
-            - Invited journal extension in JMLR (2023)
+          - Developed reinforcement learning algorithms for multi-agent
+            coordination
+          - Published research at top-tier venues with significant academic
+            impact - ICML 2022 main conference paper, cited 340+ times within
+            two years - NeurIPS 2022 workshop paper on emergent communication
+            protocols - Invited journal extension in JMLR (2023)
       - company: Apple ML Research
         position: Research Intern
         date:
@@ -86,8 +96,10 @@ cv:
         location: Cupertino, CA
         summary:
         highlights:
-          - Created on-device neural network compression pipeline deployed across 50M+ devices
-          - Filed 2 patents on efficient model quantization techniques for edge inference
+          - Created on-device neural network compression pipeline deployed
+            across 50M+ devices
+          - Filed 2 patents on efficient model quantization techniques for edge
+            inference
       - company: Microsoft Research
         position: Research Intern
         date:
@@ -96,8 +108,10 @@ cv:
         location: Redmond, WA
         summary:
         highlights:
-          - Implemented novel self-supervised learning framework for low-resource language modeling
-          - Research integrated into Azure Cognitive Services, reducing training data requirements by 60%
+          - Implemented novel self-supervised learning framework for
+            low-resource language modeling
+          - Research integrated into Azure Cognitive Services, reducing training
+            data requirements by 60%
     projects:
       - name: '[FlashInfer](https://github.com/)'
         date:
@@ -106,7 +120,8 @@ cv:
         location:
         summary: Open-source library for high-performance LLM inference kernels
         highlights:
-          - Achieved 2.8x speedup over baseline attention implementations on A100 GPUs
+          - Achieved 2.8x speedup over baseline attention implementations on
+            A100 GPUs
           - Adopted by 3 major AI labs, 8,500+ GitHub stars, 200+ contributors
       - name: '[NeuralPrune](https://github.com/)'
         date: '2021'
@@ -115,10 +130,12 @@ cv:
         location:
         summary: Automated neural network pruning toolkit with differentiable masks
         highlights:
-          - Reduced model size by 90% with less than 1% accuracy degradation on ImageNet
+          - Reduced model size by 90% with less than 1% accuracy degradation on
+            ImageNet
           - Featured in PyTorch ecosystem tools, 4,200+ GitHub stars
     publications:
-      - title: 'Sparse Mixture-of-Experts at Scale: Efficient Routing for Trillion-Parameter Models'
+      - title: 'Sparse Mixture-of-Experts at Scale: Efficient Routing for
+          Trillion-Parameter Models'
         authors:
           - '*John Doe*'
           - Sarah Williams
@@ -170,13 +187,19 @@ cv:
       - label: Infrastructure
         details: Kubernetes, Ray, distributed training, AWS, GCP
       - label: Research Areas
-        details: Neural architecture search, model compression, efficient inference, multi-agent RL
+        details: Neural architecture search, model compression, efficient inference,
+          multi-agent RL
     patents:
-      - number: Adaptive Quantization for Neural Network Inference on Edge Devices (US Patent 11,234,567)
-      - number: Dynamic Sparsity Patterns for Efficient Transformer Attention (US Patent 11,345,678)
+      - number: Adaptive Quantization for Neural Network Inference on Edge Devices (US
+          Patent 11,234,567)
+      - number: Dynamic Sparsity Patterns for Efficient Transformer Attention (US Patent
+          11,345,678)
       - number: Hardware-Aware Neural Architecture Search Method (US Patent 11,456,789)
     invited_talks:
       - reversed_number: Scaling Laws for Efficient Inference — Stanford HAI Symposium (2024)
-      - reversed_number: Building AI Infrastructure for the Next Decade — TechCrunch Disrupt (2024)
-      - reversed_number: 'From Research to Production: Lessons in ML Systems — NeurIPS Workshop (2023)'
-      - reversed_number: "Efficient Deep Learning: A Practitioner's Perspective — Google Tech Talk (2022)"
+      - reversed_number: Building AI Infrastructure for the Next Decade — TechCrunch
+          Disrupt (2024)
+      - reversed_number: 'From Research to Production: Lessons in ML Systems — NeurIPS
+          Workshop (2023)'
+      - reversed_number: "Efficient Deep Learning: A Practitioner's Perspective — Google
+          Tech Talk (2022)"
