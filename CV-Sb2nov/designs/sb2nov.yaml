@@ -2,7 +2,7 @@ design:
   theme: sb2nov
   page:
     size: us-letter
-    top_margin: 0.7in
+    top_margin: -0.8in
     bottom_margin: 0.7in
     left_margin: 0.7in
     right_margin: 0.7in
