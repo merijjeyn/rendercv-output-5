@@ -13,10 +13,7 @@ cv:
       username: rendercv
   custom_connections:
   sections:
-    Welcome to RenderCV:
-      - You can choose any of the 9 entry types for each section.
-      - Markdown syntax is supported everywhere. This is **bold**, *italic*, and
-        [link](https://example.com).
+    Welcome to RenderCV: []
     education:
       - institution: Princeton University
         area: Computer Science
