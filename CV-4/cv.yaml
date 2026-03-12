@@ -7,9 +7,9 @@ cv:
   phone:
   website: https://rendercv.com/
   social_networks:
-    - network: GitHub
-      username: rendercv
     - network: LinkedIn
+      username: rendercv
+    - network: GitHub
       username: rendercv
   custom_connections:
   sections:
